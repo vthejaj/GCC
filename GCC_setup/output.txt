@@ -1,0 +1,2 @@
+Value of x: 22
+cplusplus version: 202002
