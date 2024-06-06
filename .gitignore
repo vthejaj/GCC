@@ -1,3 +1,4 @@
 
 *.exe
-SupreamBatchCourse/strings/output/chararrays
+SupreamBatchCourse/strings/output/*
+SupreamBatchCourse/output/*
