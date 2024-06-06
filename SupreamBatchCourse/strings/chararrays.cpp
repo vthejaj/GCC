@@ -40,6 +40,6 @@ int main() {
     for (int i = 0; i < chcount; i++){
         cout << toUpper(arr[i]) << " ";
     }
-    
+    cout << endl;
     return 0;
 }
