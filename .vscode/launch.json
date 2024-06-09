@@ -1,7 +1,11 @@
 {
     "configurations": [
         {
+<<<<<<< Updated upstream
             "name": "C/C++: g++ build and debug active file",
+=======
+            "name": "C/C++: clang++ build and debug active file",
+>>>>>>> Stashed changes
             "type": "cppdbg",
             "request": "launch",
             "program": "${fileDirname}/${fileBasenameNoExtension}",
@@ -10,6 +14,7 @@
             "cwd": "${fileDirname}",
             "environment": [],
             "externalConsole": false,
+<<<<<<< Updated upstream
             "MIMode": "gdb",
             "setupCommands": [
                 {
@@ -25,6 +30,10 @@
             ],
             "preLaunchTask": "C/C++: g++ build active file",
             "miDebuggerPath": "/usr/bin/gdb"
+=======
+            "MIMode": "lldb",
+            "preLaunchTask": "C/C++: clang++ build active file"
+>>>>>>> Stashed changes
         }
     ],
     "version": "2.0.0"

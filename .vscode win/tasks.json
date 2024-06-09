@@ -2,23 +2,14 @@
     "tasks": [
         {
             "type": "cppbuild",
-<<<<<<< Updated upstream
-            "label": "C/C++: g++ build active file",
-            "command": "/usr/bin/g++",
+            "label": "C/C++: g++.exe build active file",
+            "command": "C:/Users/Vishnutheja.Jwalapur/AppData/Local/Programs/MinGW/bin/g++.exe",
             "args": [
                 "-fdiagnostics-color=always",
-=======
-            "label": "C/C++: clang++ build active file",
-            "command": "/usr/bin/clang++",
-            "args": [
-                "-fcolor-diagnostics",
-                "-fansi-escape-codes",
->>>>>>> Stashed changes
-                "-std=c++20",
                 "-g",
                 "${file}",
                 "-o",
-                "${fileDirname}/${fileBasenameNoExtension}"
+                "${fileDirname}\\${fileBasenameNoExtension}.exe"
             ],
             "options": {
                 "cwd": "${fileDirname}"
