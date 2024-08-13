@@ -1,2 +1,0 @@
-Enter values of i and j:
-Next largest multiple = 259
